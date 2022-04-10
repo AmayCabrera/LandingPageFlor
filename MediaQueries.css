@@ -1,0 +1,77 @@
+@media only screen and (max-width: 600px){
+
+    .navbar{
+       position: relative;
+    }
+
+    .navbar .shopping {
+        display: none;
+    }
+
+    .navbar .menu-bar{
+        display: block;
+        grid-column: 8/9;
+        font-size: 2em;
+        cursor: pointer;
+    }
+
+    .navbar .menu {
+        position: absolute;
+        width: 100%;
+        height: 90vh;
+        display: grid;
+        align-items: center;
+        background-color: rgb(142, 88, 158);
+        margin-top: 38em;
+        transform: translateX(170%);
+        transition: all 1s;
+    }
+
+    .navbar .menu-toggle {
+        transform: translateX(70%);
+    }
+
+    /* SECCION MAIN */
+
+    .hero .info-content {
+        grid-column: 2/10;
+        grid-row: 4/8;
+    }
+
+    .hero h1 {
+        font-size: 3em;
+    }
+
+    /*SECCION CONTACTAME*/
+
+    .seccion_contacto {
+        grid-column: 2/10;
+    }
+    .seccion_contacto .contact_heading {
+        display: none;
+    }
+
+    .seccion_contacto .contact_heading .divisor {
+        display: none;
+    }
+
+    .contenedor_contacto {
+        grid-column: 2/10;
+        grid-row: 2/8;
+
+    }
+
+    /*SECCION FOOTER*/
+
+    .footer .follow-me {
+        display: none;
+    }
+
+    .footer .social-network {
+        text-align: center;
+    }
+
+
+
+    
+}
